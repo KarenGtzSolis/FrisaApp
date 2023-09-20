@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntentoActivity2">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ellipse_1"
+        android:layout_marginLeft="-129dp"
+        android:layout_marginTop="-683dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ellipse_2"
+        android:layout_marginRight="-121dp"
+        android:layout_marginBottom="-627dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="137dp"
+        android:src="@drawable/image_1"
+        android:layout_marginTop="-100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Inicio de Sesión"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="115dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="233dp"
+        android:layout_height="48dp"
+        android:minHeight="480dp"
+        android:minWidth="480dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Télefono"
+        android:textAllCaps="false"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/rounded_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textAlignment="textStart"
+
+
+
+        />
+
+    <Button
+        android:layout_width="233dp"
+        android:layout_height="48dp"
+        android:minHeight="48dp"
+        android:minWidth="48dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Contraseña"
+        android:textAllCaps="false"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/rounded_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textAlignment="textStart"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="¿No tienes cuenta? Registrate aquí\n o ingresa como invitado"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="600dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="¿Eres OSC? \n Da click aquí"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="650dp"
+        android:textSize="11sp"
+        android:textColor="@color/black"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
